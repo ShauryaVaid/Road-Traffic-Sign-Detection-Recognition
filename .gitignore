@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Datasets
+data/
+Train/
+Test/
+Meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
