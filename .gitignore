@@ -13,13 +13,16 @@ Train/
 Test/
 Meta/
 
-# YOLO trained weights
+# YOLO trained weights & backbone downloads
+*.pt
 detection/models/*.pt
+*.cache
 
 # YOLO training run outputs (large files)
 detection/runs/
 
 # Annotation conversion intermediate files
+detection/dataset/dataset.yaml
 detection/dataset/images/train/*.jpg
 detection/dataset/images/val/*.jpg
 detection/dataset/labels/train/*.txt
