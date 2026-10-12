@@ -64,7 +64,24 @@ The trained model weights are stored at:
 detection/models/best.pt
 ```
 
-> `best.pt` is not tracked by Git (see `.gitignore`). Train it yourself using `train_yolo.py`.
+---
+
+## Results
+
+The trained YOLOv8n detector achieved the following benchmarks on the validation dataset (5,882 images):
+
+| Metric | Score |
+|---|---|
+| **mAP@50** | **85.0%** (0.850) |
+| **mAP@50-95** | **73.3%** (0.733) |
+| **Precision** | **81.2%** (0.812) |
+| **Recall** | **77.9%** (0.779) |
+| **Inference Latency** | **~11.6 ms / frame** (Real-Time capable) |
+
+Evaluation graphs and visual samples are generated in:
+* `detection/results/plots/conf_distribution.png` (Detection confidence distribution)
+* `detection/results/plots/top_classes.png` (Most frequently detected sign classes)
+* `detection/results/sample_detections.jpg` (Visual 3x3 sample detection grid)
 
 ---
 
