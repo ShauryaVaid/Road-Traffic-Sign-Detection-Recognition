@@ -1,39 +1,5 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Virtual environment
-.venv/
-venv/
-
-# Datasets (not tracked — download separately)
 data/
-Train/
-Test/
-Meta/
-
-# YOLO trained weights & backbone downloads
-*.pt
-detection/models/*.pt
-*.cache
-
-# YOLO training run outputs (large files)
-detection/runs/
-
-# Annotation conversion intermediate files
-detection/dataset/dataset.yaml
-detection/dataset/images/train/*.jpg
-detection/dataset/images/val/*.jpg
-detection/dataset/labels/train/*.txt
-detection/dataset/labels/val/*.txt
-
-# Evaluation outputs (generated at runtime)
-detection/results/output/
-
-# Jupyter
+*.npz
+__pycache__/
+.venv/
 .ipynb_checkpoints/
-
-# IDE
-.vscode/
-.idea/

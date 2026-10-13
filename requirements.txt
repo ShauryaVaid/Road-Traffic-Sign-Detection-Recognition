@@ -1,0 +1,10 @@
+numpy
+pandas
+opencv-python
+scikit-learn
+matplotlib
+tqdm
+kagglehub
+# install ONE of these for training / loaders (C decides):
+# tensorflow
+# torch
